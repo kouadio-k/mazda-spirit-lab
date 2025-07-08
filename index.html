@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -41,7 +42,6 @@
       color: #0A2342;
     }
 
-    /* Galerie */
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -59,7 +59,6 @@
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
 
-    /* Lightbox */
     .lightbox {
       display: none;
       position: fixed;
@@ -176,21 +175,8 @@
       <a href="#">TikTok</a> |
       <a href="#">YouTube</a>
     </div>
-
-    <div style="margin-top: 2rem;">
-      <form action="https://example.us1.list-manage.com/subscribe/post?u=XXXX&amp;id=YYYY" method="post" target="_blank" novalidate>
-        <label for="newsletter-email">S'inscrire à la newsletter</label>
-        <input type="email" id="newsletter-email" name="EMAIL" placeholder="Votre email" required
-          style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc; width: 100%; max-width: 300px; margin-bottom: 0.5rem;">
-        <button type="submit"
-          style="padding: 0.5rem 1rem; background-color:#FF4B3E; color: white; border: none; border-radius: 4px; cursor:pointer;">
-          S’abonner
-        </button>
-      </form>
-    </div>
   </footer>
 
-  <!-- Lightbox Script -->
   <div class="lightbox" id="lightbox">
     <img src="" alt="Agrandissement">
   </div>
